@@ -1,0 +1,23 @@
+{
+  "name": "index-js",
+  "version": "1.0.0",
+  "description": "index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMRosenberg12/Profile-Generator.git"
+  },
+  "keywords": [
+    "node.js",
+    "index.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMRosenberg12/Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/JMRosenberg12/Profile-Generator#readme"
+}
