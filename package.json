@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JMRosenberg12/Profile-Generator/issues"
   },
-  "homepage": "https://github.com/JMRosenberg12/Profile-Generator#readme"
+  "homepage": "https://github.com/JMRosenberg12/Profile-Generator#readme",
+  "dependencies": {
+    "electron-html-to": "^2.6.0"
+  }
 }
