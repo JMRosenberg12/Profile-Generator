@@ -125,7 +125,7 @@ inquirer
         htmlToPdf.create(generateHTML(profileObj),options).toFile("profile.pdf",function(err,res) {
             if (err) return console.error(err);
             console.log("wrotePDF")
-            console.log("res")
+            console.log(res)
         });
     })
     .catch(function(err) {
