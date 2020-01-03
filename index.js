@@ -99,7 +99,7 @@ inquirer
         .get(`https://api.github.com/users/${response.username}/following`)
         .then(function(axios_response){
             num_following = axios_response.data.length
-           // console.log("num_following: " + num_following)
+           console.log("num_following: " + num_following)
         })
         
       await axios
@@ -110,7 +110,7 @@ inquirer
           profileObj.google_map = "https://www.google.com/maps/place/" + response.data.location.replace(/\s+/g,'+')
           profileObj.bio = response.data.bio
           profileObj.avatar = response.data.avatar_url
-          // console.log(response.data)
+          console.log(response.data)
         })
         // let file÷=name = `${response.username}_profile.html`
         
@@ -125,6 +125,7 @@ inquirer
         htmlToPdf.create(generateHTML(profileObj),options).toFile("profile.pdf",function(err,res) {
             if (err) return console.error(err);
             console.log("wrotePDF")
+            console.log("res")
         });
     })
     .catch(function(err) {
