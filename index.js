@@ -122,7 +122,7 @@ inquirer
         //htmlProfile = fs.readFile(filename, "utf8", function (){console.log("finished reading file")})
         //console.log(htmlProfile)
         let options = { format:"Landscape"};
-        await htmlToPdf.create(generateHTML(profileObj),options).toFile("profile.pdf",function(err,res) {
+        htmlToPdf.create(generateHTML(profileObj),options).toFile("profile.pdf",function(err,res) {
             if (err) return console.error(err);
             console.log("wrotePDF")
         });
